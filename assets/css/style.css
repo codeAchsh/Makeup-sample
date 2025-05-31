@@ -736,6 +736,77 @@ nav h3{
     .top{
         bottom: 3em;
     }
+}
 
-
+@media screen and (max-width:480px){
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    nav h1{
+        width: 70%;
+        left: 30%;
+    }
+    nav h2{
+        width: 80%;
+        top: 28%;
+        left: 10%;
+        font-size: 36px;
+    }
+    nav h3{
+        width: 60%;
+        top: 40%;
+        left: 20%;
+    }
+    .about h1,
+    .about h2{
+        width: 80%;
+        left: 10%;
+    }
+    .brand-icon{
+        display: grid;
+        grid-template-rows: repeat(5,1fr);
+        gap: 10px;
+        padding: 0;
+        margin-left: 1em !important;
+        justify-items: center;
+    }
+    .brand .brand-img {
+        display: flex;
+        flex-wrap: wrap !important; 
+        gap: 1em !important;
+        padding: 0;
+        margin-top: 1em;
+        justify-content: center;
+    }
+    .brand .brand-img img{
+        width: 14%;
+    }
+    .footer-wrapper{
+        width: 100%;
+        height: auto;
+        min-height: 650px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-1{
+        width: 100%;
+    }
+    .footer-2,
+    .footer-3{
+        width: 50%;
+        gap: 20px;
+        top: 300px;
+        left: 10%;
+    }
+    .footer-3{
+        left: 50%;
+    }
+    .footer-wrapper button{
+        width: 100px;
+        height: 25px;
+    }
+    
 }
