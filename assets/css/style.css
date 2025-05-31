@@ -537,17 +537,22 @@ nav h3{
 .top{
     width: 5%;
     height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
     border-radius: 40px;
     background-color: #CAEACA;
     color: #C56756;
     font-weight: 600;
     position: absolute;
-    right: 3em;
-    bottom: 3em;
+    right: 30px;
+    bottom: 50px;
 }
 .top:hover{
     background-color: #C56756;
     color: #CAEACA;
+
 }
 @media screen and (max-width:768px){
     nav{
@@ -734,6 +739,7 @@ nav h3{
         line-height: .5;
     }
     .top{
+        width: 80px;
         bottom: 3em;
     }
 }
@@ -804,8 +810,7 @@ nav h3{
     .footer-3{
         left: 50%;
     }
-    .footer-wrapper button{
-        width: 100px;
+    .top{
         height: 25px;
     }
     
